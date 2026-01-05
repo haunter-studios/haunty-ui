@@ -1,9 +1,29 @@
 @import "tailwindcss";
 
+/*  */
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --blue-200:#3737A4;
+  --blue-500: #0C0C4F;
+
+  --pink-500: #FF6F61;
+
+  --text-slate-700: #334155;
+  --text-slate-900: #0F172A;
+  --text-gray-500: #6B7280;
 }
+
+/* Gradient definitions */
+:root {
+  --blue-b-gradient: linear-gradient(to bottom, #0C0C4F, #3737A4);
+  --blue-br-gradient: linear-gradient(to bottom right, #3737A4, #0C0C4F);
+  --pink-b-gradient: linear-gradient(to bottom, #E3225C, #7B1C4A);
+  --green-b-gradient: linear-gradient(to bottom, #39A437, #194F0C);
+  --blue-purple-tr-gradient: linear-gradient(to top right, #dbeafe, #f3e8ff, #f9f9ff);
+}
+
 
 @theme inline {
   --color-background: var(--background);
